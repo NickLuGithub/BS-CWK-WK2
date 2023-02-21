@@ -25,9 +25,11 @@ namespace BS_HWK_WK2
             //    Console.WriteLine();
             //}
 
+            // 輸入N
             Console.WriteLine("請輸入N");
             n = Convert.ToInt32(Console.ReadLine());
 
+            // 利用Range解決問題
             IEnumerable<int> numberIList = Enumerable.Range(1, n).Select(x => x);
             foreach (int i in numberIList.OrderByDescending(x => x))
             {
