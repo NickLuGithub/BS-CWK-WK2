@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BS-HWK-WK2", "BS-HWK-WK2\BS-HWK-WK2.csproj", "{19181824-EF4B-4C13-B337-7C0AE908795A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N3-digital-pyramid", "BS-HWK-WK2\N3-digital-pyramid.csproj", "{19181824-EF4B-4C13-B337-7C0AE908795A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
