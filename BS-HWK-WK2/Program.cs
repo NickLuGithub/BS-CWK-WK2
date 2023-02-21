@@ -13,6 +13,7 @@ namespace BS_HWK_WK2
         static void Main(string[] args)
         {
             int n = 5;
+            
             // 非LINQ三角形
             //for (int i = 0; i < n; i++)
             //{
@@ -24,8 +25,10 @@ namespace BS_HWK_WK2
             //    Console.WriteLine();
             //}
 
+            Console.WriteLine("請輸入N");
+            n = Convert.ToInt32(Console.ReadLine());
+
             IEnumerable<int> numberIList = Enumerable.Range(1, n).Select(x => x);
-            
             foreach (int i in numberIList.OrderByDescending(x => x))
             {
                 IEnumerable<int> numberJList = Enumerable.Range(1, n - i + 1).Select(x => x);
